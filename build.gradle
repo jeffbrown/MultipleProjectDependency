@@ -27,6 +27,7 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
 
     implementation project(':library')
+    runtime project(':LibrarySecond')
 }
 
 
